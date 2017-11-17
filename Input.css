@@ -1,0 +1,28 @@
+body {
+    background-color: #33CCCC;
+    background-image: url("123.jpg")
+}
+
+a.mar {
+    margin-right: 2cm;
+}
+
+h1.w {
+color: red;
+font-size: 50pt;
+text-align: center;
+border: 5px solid blue
+ 
+}
+
+#x:hover
+{
+	color: green;
+
+}
+
+#y:hover
+{
+	color: yellow;
+
+}

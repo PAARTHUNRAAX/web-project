@@ -1,0 +1,27 @@
+ function displayOutput()
+ {
+            var input = ""+document.getElementById("BA").value;
+            var input2
+            if (input.length == 0)
+ {
+                alert("Please enter a valid input");
+                return alert(input);
+            }
+            else{
+           document.getElementById("result").innerHTML =input; }
+        }
+
+function calc(){
+    var sal= document.getElementById("AC").value;
+    var per=document.getElementById("AD").value;
+    if(sal.length>0 && per.length>0)
+    {
+        var total= sal-((per/100)*sal);
+        document.getElementById("result2").innerHTML=total;
+    }
+    else
+    {
+        alert("Not entered any values");
+    }
+    
+}
